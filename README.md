@@ -1,2 +1,2 @@
-# Waterford-project
-A project for a place I know mostly Htmll and css
+# Waterford Lodge
+A project mostly in Htmll and css
