@@ -100,9 +100,27 @@ a {
     background-color: rgb(197, 157, 95);
   }
 
+  .room-booking :hover {
+    color: #fff;
+  }
+
   ul li  {
     padding: 10px;
     display: inline-block;
     transition: color .25s ease-in-out;
+  }
+
+  .test {
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color: rgb(197, 157, 95);
+    color: #fff;   
+    border: none;
+    border-radius: 5px;
+
+  }
+
+  .test:hover{
+    background-color: goldenrod;
   }
   
