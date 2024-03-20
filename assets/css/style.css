@@ -43,7 +43,7 @@ a {
     flex-shrink: 1;
     width: 100%;
     margin: 1.5rem;
-    border-radius: 6px;
+    border-radius: 0.6rem;
   }
   
 
@@ -117,7 +117,7 @@ a {
     background-color: rgb(197, 157, 95);
     color: #fff;   
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 
   }
 
