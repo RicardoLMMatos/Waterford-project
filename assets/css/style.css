@@ -22,6 +22,11 @@ a {
     color: #fff;
 }
 
+p {
+  font-size: 1.7rem;
+  color: #666;
+}
+
 /* Grid system */
 
 .container {
@@ -124,4 +129,94 @@ a {
   .test:hover{
     background-color: goldenrod;
   }
+
+
+  /* Hero section */
+
+  .hero-image {
+    background-color: #666;
+    background-image: url("/assets/images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    /* height: 70vh; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+    max-height: 70vh;
+    /* background-attachment: fixed; */
+
+  }
+
+  .hero-outer {
+    /* overflow: hidden; */
+    position: relative;
+  }
   
+  .hero-text {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    padding-top: 50rem;
+    padding-bottom: 30rem;
+    font-family: 'Great Vibes', serif;
+    font-size: 3.5rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+
+  }
+
+  .break-line {
+    color: rgb(197, 157, 95);
+    width: 4rem;
+    border: 0.1rem solid rgb(197, 157, 95) ;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+
+  }
+
+  
+  /* Welcome area*/
+
+  .welcome .row {
+    justify-content: center;
+    
+  }
+
+
+  /* Footer area */
+
+  .footer {
+  
+    background-color: #fff;
+    text-align: center;
+    height: 5rem;
+   
+  }
+
+
+
+  /* Offers area */
+
+  .offers {
+    background-color: #666;
+    height: 50rem;
+    margin-bottom: 5rem;
+  }
+
+  /* Contact area */
+
+  .contact {
+   background-color: black;
+   height: 50rem;
+   margin-bottom: 5rem;
+  }
+
+  .section {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
