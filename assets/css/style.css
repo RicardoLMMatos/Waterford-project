@@ -50,6 +50,22 @@ p {
     margin: 1.5rem;
     border-radius: 0.6rem;
   }
+
+  /* Card system */
+.card {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/images/func1.jpg);
+  height: 30rem;
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
   
 
   /*Ul's*/
@@ -139,7 +155,6 @@ p {
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
-    /* height: 70vh; */
     position: absolute;
     top: 0;
     right: 0;
@@ -147,25 +162,26 @@ p {
     left: 0;
     background-size: cover;
     z-index: -1;
-    max-height: 70vh;
-    /* background-attachment: fixed; */
+   
 
   }
 
   .hero-outer {
-    /* overflow: hidden; */
     position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
   }
   
   .hero-text {
     color: #fff;
     z-index: 1;
     position: relative;
-    padding-top: 50rem;
-    padding-bottom: 30rem;
     font-family: 'Great Vibes', serif;
     font-size: 3.5rem;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    top: auto;
+    bottom: auto;
 
   }
 
@@ -192,7 +208,7 @@ p {
 
   .footer {
   
-    background-color: #fff;
+    background-color: #666;
     text-align: center;
     height: 5rem;
    
@@ -203,9 +219,8 @@ p {
   /* Offers area */
 
   .offers {
-    background-color: #666;
-    height: 50rem;
-    margin-bottom: 5rem;
+    flex-direction: row;
+    align-items: center;
   }
 
   /* Contact area */
@@ -220,3 +235,10 @@ p {
     margin-top: 10rem;
     margin-bottom: 10rem;
   }
+
+  .section.offers {
+    flex-direction: row;
+    align-items: center;
+  }
+
+
