@@ -51,6 +51,16 @@ p {
     border-radius: 0.6rem;
   }
 
+/* 
+Mr Ricardo
+Add the class column-50 to any div with the column class to make it 50% width (side by side if x2 columns) 
+It looks like you were applying the width styling to the card class (child) that sits inside the column that is still full width (100%)
+- the card will just be 50% width inside the full width column (100&%)
+*/
+  .column--50{
+    width: calc(50% - 30px);
+  }
+
   /* Card system */
 .card {
   /* width: 50%; */
