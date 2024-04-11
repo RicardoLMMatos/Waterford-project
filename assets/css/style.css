@@ -56,7 +56,6 @@ p {
 
 /* Card system */
 .card {
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,24 +65,10 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  text-align: center;
 
 }
 
-.carv-card {
-  background-image: url(/assets/images/carv.jpg);
-}
-
-.acom-card {
-  background-image: url(/assets/images/acom.jpg);
-}
-
-.food-card {
-  background-image: url(/assets/images/food.jpg);
-}
-
-.card p {
-  color: #fff;
-}
 
 /*Ul's*/
 ul {
@@ -132,7 +117,7 @@ ul li a:hover {
   font-family: 'Great Vibes', serif;
   color: rgb(197, 157, 95);
   font-size: 5rem;
-  padding-right: 6rem;
+  padding-right: 8rem;
 }
 
 .room-booking {
@@ -199,6 +184,7 @@ ul li {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
   top: auto;
   bottom: auto;
+  margin-bottom: 3rem;
 
 }
 
@@ -215,14 +201,62 @@ ul li {
 
 /* Welcome area*/
 
-.welcome .row {
-  justify-content: center;
+.welcome-logo {
+  font-family: 'Great Vibes', serif;
+  color: rgb(197, 157, 95);
+  font-size: 5rem;
+}
 
+.welcome {
+  display: flex;
+  justify-content: center;
+} 
+
+.welcome-text {
+  max-width: 70%;
+ justify-content:center ;
+ text-align: center;
 }
 
 
 
+
 /* Offers area */
+
+.offers-card {
+  width: 50%;
+  max-width: calc(50% - 20px);
+  margin: 0.5rem;
+  color: #fff;
+}
+
+.carv-card {
+  background-image: url(/assets/images/carv.jpg);
+}
+
+.acom-card {
+  background-image: url(/assets/images/acom.jpg);
+}
+
+.food-card {
+  background-image: url(/assets/images/food.jpg);
+}
+
+.card p {
+  color: #fff;
+}
+
+.offers-card h2 {
+  font-size: 4rem;
+  margin-bottom:2rem ;
+
+}
+
+
+.cards-btn {
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
 
 
 /* Footer area */
@@ -249,12 +283,6 @@ ul li {
   margin-bottom: 10rem;
 }
 
-
-
-.offers-card {
-  max-width: calc(50% - 20px);
-  margin: 1rem;
-}
 
 .food-card {
 
