@@ -66,11 +66,24 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  color: #fff;
 
 }
 
+.carv-card {
+  background-image: url(/assets/images/carv.jpg);
+}
 
+.acom-card {
+  background-image: url(/assets/images/acom.jpg);
+}
+
+.food-card {
+  background-image: url(/assets/images/food.jpg);
+}
+
+.card p {
+  color: #fff;
+}
 
 /*Ul's*/
 ul {
@@ -208,6 +221,7 @@ ul li {
 }
 
 
+
 /* Offers area */
 
 
@@ -240,4 +254,8 @@ ul li {
 .offers-card {
   max-width: calc(50% - 20px);
   margin: 1rem;
+}
+
+.food-card {
+
 }
