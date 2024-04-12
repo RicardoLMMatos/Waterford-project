@@ -60,7 +60,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/images/func1.jpg);
   height: 30rem;
   background-repeat: no-repeat;
   background-position: center center;
@@ -179,9 +178,9 @@ ul li {
   color: #fff;
   z-index: 1;
   position: relative;
-  font-family: 'Great Vibes', serif;
+  font-family: 'Great Vibes';
   font-size: 3.5rem;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
   top: auto;
   bottom: auto;
   margin-bottom: 3rem;
@@ -201,16 +200,16 @@ ul li {
 
 /* Welcome area*/
 
-.welcome-logo {
-  font-family: 'Great Vibes', serif;
-  color: rgb(197, 157, 95);
-  font-size: 5rem;
-}
-
 .welcome {
   display: flex;
   justify-content: center;
 } 
+
+.welcome-logo {
+  font-family: 'Great Vibes';
+  color: rgb(197, 157, 95);
+  font-size: 5rem;
+}
 
 .welcome-text {
   max-width: 70%;
@@ -242,6 +241,10 @@ ul li {
   background-image: url(/assets/images/food.jpg);
 }
 
+.funct-card {
+  background-image: url(/assets/images/func1.jpg);
+}
+
 .card p {
   color: #fff;
 }
@@ -258,6 +261,27 @@ ul li {
   border-radius: 0.5rem;
 }
 
+/* Photos carousel */
+
+.container-functions-photos {
+  width: 100%;
+  max-width: fit-content;
+}
+
+
+/* Contact area */
+
+.contact {
+  background-color: #666;
+}
+
+.contact-card {
+  width: 50%;
+  max-width: calc(50% - 20px);
+  margin: 0.5rem;
+  color: #fff;
+}
+
 
 /* Footer area */
 
@@ -269,21 +293,3 @@ ul li {
 
 }
 
-
-/* Contact area */
-
-.contact {
-  background-color: black;
-  height: 50rem;
-  margin-bottom: 5rem;
-}
-
-.section {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-
-.food-card {
-
-}
