@@ -96,6 +96,7 @@
 
 .slick-initialized .slick-slide {
     display: block;
+    position: relative;
 }
 
 .slick-loading .slick-slide {
