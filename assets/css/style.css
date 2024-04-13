@@ -222,6 +222,10 @@ ul li {
 
 /* Offers area */
 
+.offers {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 .offers-card {
   width: 50%;
   max-width: calc(50% - 20px);
