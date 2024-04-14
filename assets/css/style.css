@@ -298,14 +298,16 @@ ul li {
 
 .contact {
   margin-top: 3.5rem;
-  background-color: #666;
+  border: 0.1rem solid gold;
+  color: #666;
+
 }
 
 .contact-card {
   width: 50%;
   max-width: calc(50% - 20px);
   margin: 0.5rem;
-  color: #fff;
+  color: #666;
 }
 
 
