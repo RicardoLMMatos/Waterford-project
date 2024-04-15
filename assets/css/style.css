@@ -25,7 +25,7 @@ a {
 
 p {
   font-size: 1.7rem;
-  color: #666;
+  color: srgb(112,128,144);
 }
 
 h2 {
@@ -103,7 +103,7 @@ ul li a:hover {
 }
 
 .fab:hover {
-  color: #fff;
+  color: rgb(209, 144, 44);
 }
 
 
@@ -125,7 +125,7 @@ ul li a:hover {
 }
 
 .nav-active {
-  background-color: #666;
+  background-color: rgb(112,128,144);
   box-shadow: 5px -1px 12px -5px grey;
 }
 
@@ -150,7 +150,7 @@ ul li {
   transition: color .25s ease-in-out;
 }
 
-.test {
+.btn {
   font-size: 1.5rem;
   padding: 2rem;
   background-color: rgb(197, 157, 95);
@@ -161,8 +161,8 @@ ul li {
 
 }
 
-.test:hover {
-  background-color: goldenrod;
+.btn:hover {
+  background-color: rgb(209, 144, 44);
   transition: 0.3s ease-in-out;
 }
 
@@ -170,7 +170,7 @@ ul li {
 /* Hero section */
 
 .hero-image {
-  background-color: #666;
+  background-color: rgb(112,128,144);
   background-image: url("/assets/images/hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -219,7 +219,6 @@ ul li {
 }
 
 .logo-single {
-  /* color: gold; */
   font-size: 10rem;
 }
 
@@ -291,7 +290,7 @@ ul li {
   border-radius: 0.5rem;
 }
 
-/* Function are & Photos carousel */
+/* Function room & Photos carousel */
 
 .function-area {
   display: flex;
@@ -317,7 +316,7 @@ ul li {
 
 .contact {
   margin-top: 3.5rem; 
-  color: #666;
+  color: srgb(112,128,144);
   margin-bottom: 3.5rem;
 }
 
@@ -325,7 +324,7 @@ ul li {
   width: 50%;
   max-width: calc(50% - 20px);
   margin: 0.5rem;
-  color: #666;
+  color: rgb(112,128,144);
   border: 0.2rem solid  rgb(197, 157, 95);
 }
 
@@ -334,7 +333,7 @@ ul li {
 }
 
 .contact-card p {
-  color: #666;
+  color: rgb(112,128,144);
   margin: 0.2rem;
 }
 
@@ -357,7 +356,7 @@ ul li {
 /* Footer area */
 
 .footer-row {
-  background-color: #666;
+  background-color: rgb(112,128,144);
   width: 100%;
   font-size: 2rem;
   /* margin-bottom: -1; */
