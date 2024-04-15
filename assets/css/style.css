@@ -99,7 +99,7 @@ ul li a:hover {
 .fab {
   padding: 1rem;
   display: inline-block;
-  transition: color .25s ease-in-out;
+  transition: color .3s ease-in-out;
 }
 
 .fab:hover {
@@ -157,14 +157,13 @@ ul li {
   color: #fff;
   border: none;
   border-radius: 0.5rem;
-  /* box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.69);
--webkit-box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.69);
--moz-box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.69); */
+  transition: 0.3s ease-in-out;
 
 }
 
 .test:hover {
   background-color: goldenrod;
+  transition: 0.3s ease-in-out;
 }
 
 
