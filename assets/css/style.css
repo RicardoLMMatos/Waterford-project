@@ -45,8 +45,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
+  /* margin-left: -1.5rem;
+  margin-right: -1.5rem; */
 }
 
 .column {
