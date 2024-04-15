@@ -8,10 +8,8 @@ box-sizing: inherit;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /* 1 rem */
 }
-
-/* 1 rem */
 
 
 body {
@@ -61,6 +59,7 @@ h2 {
 }
 
 /* Card system */
+
 .card {
   display: flex;
   flex-direction: column;
@@ -96,6 +95,18 @@ ul li a {
 ul li a:hover {
   color: rgb(197, 157, 95);
 }
+
+.fab {
+  padding: 1rem;
+  display: inline-block;
+  transition: color .25s ease-in-out;
+}
+
+.fab:hover {
+  color: #fff;
+}
+
+
 
 
 
@@ -336,6 +347,7 @@ ul li {
 .footer-map {
   width: 100%;
   height: fit-content;
+  margin-bottom: 5rem;
 }
 
 .google-map {
