@@ -30,6 +30,10 @@ p {
   color: #666;
 }
 
+h2 {
+  font-size: 2.7rem;
+}
+
 /* Grid system */
 
 .container {
@@ -142,6 +146,9 @@ ul li {
   color: #fff;
   border: none;
   border-radius: 0.5rem;
+  /* box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.69);
+-webkit-box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.69);
+-moz-box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.69); */
 
 }
 
@@ -197,6 +204,7 @@ ul li {
   margin: auto;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
+  margin-top: 0;
 
 }
 
@@ -259,7 +267,6 @@ ul li {
 
 .card p {
   color: #fff;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .offers-card h2 {
@@ -296,11 +303,12 @@ ul li {
 
 /* Contact area */
 
-.contact {
-  margin-top: 3.5rem;
-  border: 0.1rem solid gold;
-  color: #666;
 
+
+.contact {
+  margin-top: 3.5rem; 
+  color: #666;
+  margin-bottom: 3.5rem;
 }
 
 .contact-card {
@@ -308,7 +316,19 @@ ul li {
   max-width: calc(50% - 20px);
   margin: 0.5rem;
   color: #666;
+  border: 0.2rem solid  rgb(197, 157, 95);
 }
+
+.contact-card h2 {
+  margin-bottom: 2rem;
+}
+
+.contact-card p {
+  color: #666;
+  margin: 0.2rem;
+}
+
+
 
 
 /* Footer area */
@@ -318,5 +338,14 @@ ul li {
   text-align: center;
   height: 5rem;
 
+}
+
+.footer-map {
+  width: 100%;
+  height: fit-content;
+}
+
+.google-map {
+  width: 100%;
 }
 
