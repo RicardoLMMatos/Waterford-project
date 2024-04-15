@@ -331,14 +331,7 @@ ul li {
 
 
 
-/* Footer area */
-
-.footer {
-  background-color: #666;
-  text-align: center;
-  height: 5rem;
-
-}
+/* Map area */
 
 .footer-map {
   width: 100%;
@@ -347,5 +340,24 @@ ul li {
 
 .google-map {
   width: 100%;
+}
+
+
+/* Footer area */
+
+.footer-row {
+  background-color: #666;
+  width: 100%;
+  font-size: 2rem;
+  /* margin-bottom: -1; */
+}
+
+.logo-footer {
+  margin-right: 50rem;
+}
+
+.social-networks {
+  color: rgb(197, 157, 95);
+  font-size: 5rem;
 }
 
