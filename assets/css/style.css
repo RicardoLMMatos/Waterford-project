@@ -30,7 +30,6 @@ p {
 
 h2 {
   font-size: 2.7rem;
-  color: rgb(112,128,144);
 }
 
 /* Grid system */
@@ -302,6 +301,7 @@ ul li {
   max-width: 70%;
   justify-content:center ;
   text-align: center;
+  margin-bottom: 5rem;
   
  }
 
@@ -326,7 +326,7 @@ ul li {
   width: 50%;
   max-width: calc(50% - 20px);
   margin: 0.5rem;
-  /* color:srgb(112,128,144); */
+  color:rgb(112,128,144);
   border: 0.2rem solid  rgb(197, 157, 95);
 }
 
