@@ -25,7 +25,7 @@ a {
 
 p {
   font-size: 1.7rem;
-  color: rgb(112,128,144);
+  color: #546270;
 }
 
 h2 {
@@ -56,6 +56,10 @@ h2 {
   width: 100%;
   /* margin: 1.5rem; */
   border-radius: 0.6rem;
+}
+
+.column--50{
+  width: calc(50% - 30px);
 }
 
 /* Card system */
@@ -125,7 +129,7 @@ ul li a:hover {
 }
 
 .nav-active {
-  background-color: rgb(112,128,144);
+  background-color: #546270;
   box-shadow: 5px -1px 12px -5px grey;
 }
 
@@ -170,7 +174,7 @@ ul li {
 /* Hero section */
 
 .hero-image {
-  background-color: rgb(112,128,144);
+  background-color: #546270;
   background-image: url("/assets/images/hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -252,8 +256,8 @@ ul li {
   margin-bottom: 3rem;
 }
 .offers-card {
-  width: 50%;
-  max-width: calc(50% - 20px);
+  /* width: 50%;
+  max-width: calc(50% - 20px); */
   margin: 0.5rem;
   color: #fff;
 }
@@ -326,7 +330,7 @@ ul li {
   width: 50%;
   max-width: calc(50% - 20px);
   margin: 0.5rem;
-  color:rgb(112,128,144);
+  color:#546270;
   border: 0.2rem solid  rgb(197, 157, 95);
 }
 
@@ -335,7 +339,7 @@ ul li {
 }
 
 .contact-card p {
-  color: rgb(112,128,144);
+  color: #546270;
   margin: 0.2rem;
 }
 
@@ -358,7 +362,7 @@ ul li {
 /* Footer area */
 
 .footer-row {
-  background-color: rgb(112,128,144);
+  background-color: #546270;
   width: 100%;
   font-size: 2rem;
   /* margin-bottom: -1; */
