@@ -166,7 +166,7 @@ ul li {
 }
 
 .btn:hover {
-  background-color: rgb(209, 144, 44);
+  background-color: #9e7739;
   transition: 0.3s ease-in-out;
 }
 
