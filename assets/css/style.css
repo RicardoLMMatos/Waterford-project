@@ -107,7 +107,7 @@ ul li a:hover {
 }
 
 .fab:hover {
-  color: rgb(209, 144, 44);
+  color:#9e7739;
 }
 
 
@@ -369,12 +369,13 @@ ul li {
 }
 
 .logo-footer {
-  margin-right: 50rem;
+  font-size: 4rem;
+  margin-right: 10rem;
 }
 
 .social-networks {
   color: rgb(197, 157, 95);
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .footer-info {
