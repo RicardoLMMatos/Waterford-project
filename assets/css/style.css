@@ -327,8 +327,8 @@ ul li {
 }
 
 .contact-card {
-  width: 50%;
-  max-width: calc(50% - 20px);
+  /* width: 50%;
+  max-width: calc(50% - 20px); */
   margin: 0.5rem;
   color:#546270;
   border: 0.2rem solid  rgb(197, 157, 95);
