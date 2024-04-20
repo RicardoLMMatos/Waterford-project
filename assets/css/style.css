@@ -130,7 +130,7 @@ ul li a:hover {
 
 .nav-active {
   background-color: #546270;
-  box-shadow: 5px -1px 12px -5px grey;
+  box-shadow: 5px 1px 12px -2px black;
 }
 
 .logo {
