@@ -377,3 +377,15 @@ ul li {
   font-size: 5rem;
 }
 
+.footer-info {
+  width: 100%;
+  background-color: #546270;
+  color: #fff;
+}
+
+.footer-info p {
+  float: right;
+  margin-right: 20rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
