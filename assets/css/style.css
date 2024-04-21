@@ -268,15 +268,15 @@ ul li {
 }
 
 .acom-card {
-  background-image: url(/assets/images/acom.jpg);
+  background-image: url(../images/acom.jpg);
 }
 
 .food-card {
-  background-image: url(/assets/images/food.jpg);
+  background-image: url(../images/food.jpg);
 }
 
 .funct-card {
-  background-image: url(/assets/images/func1.jpg);
+  background-image: url(../images/func1.jpg);
 }
 
 .card p {
