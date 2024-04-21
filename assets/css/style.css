@@ -125,6 +125,10 @@ ul li a:hover {
   font-size: 1.5rem;
 }
 
+.active {
+  text-decoration:underline;
+}
+
 .nav-active {
   background-color: #546270;
   box-shadow: 5px 1px 12px -2px black;
