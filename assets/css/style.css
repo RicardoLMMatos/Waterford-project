@@ -209,6 +209,7 @@ ul li {
   top: auto;
   bottom: auto;
   margin-bottom: 3rem;
+  letter-spacing: .2rem;
 
 }
 
@@ -254,6 +255,7 @@ ul li {
   max-width: 70%;
  justify-content:center ;
  text-align: center;
+ letter-spacing: .1rem;
 }
 
 
@@ -268,6 +270,7 @@ ul li {
 .offers-card {
   margin: 0.5rem;
   color: #fff;
+  letter-spacing: .2rem;
 }
 
 .carv-card {
@@ -314,6 +317,7 @@ ul li {
   justify-content:center ;
   text-align: center;
   margin-bottom: 5rem;
+  letter-spacing: .1rem;
   
  }
 
