@@ -233,7 +233,7 @@ ul li {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgb(197, 157, 95, 0.4);
+  background-color: rgb(197, 157, 95, 0.3);
 }
 
 
@@ -266,8 +266,6 @@ ul li {
   margin-bottom: 3rem;
 }
 .offers-card {
-  /* width: 50%;
-  max-width: calc(50% - 20px); */
   margin: 0.5rem;
   color: #fff;
 }
