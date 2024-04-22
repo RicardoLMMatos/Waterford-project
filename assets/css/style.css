@@ -407,7 +407,7 @@ ul li {
   width: 100%;
   height: 30rem;
   object-fit: cover;
-  transition: ease-in-out .5s;
+  transition: ease-in-out .4s;
   box-shadow: 5px 1px 12px -2px black;
   border-radius: 0.1rem;
 }
@@ -421,5 +421,12 @@ ul li {
 
 .Carvery-section {
 
+  margin-top: 15rem;
+}
+
+
+/* Funtions area */
+
+.function-header {
   margin-top: 15rem;
 }
