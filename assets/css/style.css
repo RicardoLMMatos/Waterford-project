@@ -32,6 +32,10 @@ h2 {
   font-size: 2.7rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 /* Grid system */
 
 .container {
@@ -339,8 +343,6 @@ ul li {
 }
 
 .contact-card {
-  /* width: 50%;
-  max-width: calc(50% - 20px); */
   margin: 0.5rem;
   color:#546270;
   border: 0.2rem solid  rgb(197, 157, 95);
@@ -430,11 +432,28 @@ ul li {
 /* Carvery area */
 
 .Carvery-section {
-
   margin-top: 15rem;
 }
 
+.carvery-card {
+  margin: 0.5rem;
+  color:#546270;
+  /* border: 0.2rem solid  rgb(197, 157, 95); */
+}
 
+.carvery-card h2 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.carvery-card p {
+  color: #546270;
+  margin: 0.2rem;
+}
+
+.sunday-menu-link {
+  color: #9e7739;
+}
 /* Funtions area */
 
 .function-header {
