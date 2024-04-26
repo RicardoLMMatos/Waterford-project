@@ -1,11 +1,22 @@
 
 /* Function room & Photos carousel */
 
-.function-area {
+.function{
+    /* Funtions area */
+  &-area{
     display: flex;
     justify-content: center;
+  }
+  &-photos {
+   
+    img{
+      width: 100%;
+      height: 50rem;
+      object-fit: cover;
+    }
+  }
 
-  .function-text {
+  &-text {
     max-width: 70%;
     justify-content:center ;
     text-align: center;
@@ -13,17 +24,10 @@
     letter-spacing: .1rem;
     
    }
-  
-  
-  .function-photos img{
-    width: 100%;
-    height: 50rem;
-    object-fit: cover;
-  }
 
-  /* Funtions area */
 
-.function-header {
+
+  &-header {
     margin-top: 15rem;
   }
 }
