@@ -1,0 +1,65 @@
+
+/* Hero section */
+
+.hero-image {
+    background-color: #546270;
+    background-image: url("/assets/images/hero1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+  
+  
+  }
+  
+  .hero-outer {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .hero-text {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    font-family: 'Great Vibes';
+    font-size: 3.5rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    top: auto;
+    bottom: auto;
+    margin-bottom: 3rem;
+    letter-spacing: .2rem;
+  
+  }
+  
+  .break-line {
+    color: rgb(197, 157, 95);
+    width: 5rem;
+    border: 0.1rem solid rgb(197, 157, 95);
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0;
+  
+  }
+  
+  .logo-single {
+    font-size: 10rem;
+  }
+  
+  .opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(197, 157, 95, 0.3);
+  }

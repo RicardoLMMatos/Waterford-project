@@ -1,0 +1,44 @@
+
+/* Offers area */
+
+.offers {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .offers-card {
+    margin: 0.5rem;
+    color: #fff;
+    letter-spacing: .2rem;
+  }
+  
+  .carv-card {
+    background-image: url('/assets/images/carvery-images/carv6.webp');
+  }
+  
+  .acom-card {
+    background-image: url('/assets/images/acom.jpg');
+  }
+  
+  .food-card {
+    background-image: url('/assets/images/food.jpg');
+  }
+  
+  .funct-card {
+    background-image: url('/assets/images/func1.jpg');
+  }
+  
+  .card p {
+    color: #fff;
+  }
+  
+  .offers-card h2 {
+    font-size: 4rem;
+    margin-bottom:2rem ;
+  
+  }
+  
+  
+  .cards-btn {
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+  }

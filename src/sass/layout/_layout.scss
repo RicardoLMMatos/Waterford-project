@@ -1,0 +1,42 @@
+/* Grid system */
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    border-radius: 0.6rem;
+  }
+  
+  .column--50{
+    width: calc(50% - 30px);
+  }
+  
+  /* Card system */
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+  
+  }
+  
