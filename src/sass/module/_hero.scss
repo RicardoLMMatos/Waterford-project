@@ -1,5 +1,11 @@
 
 /* Hero section */
+.hero-outer {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
 
 .hero-image {
     background-color: #546270;
@@ -17,15 +23,7 @@
   
   
   }
-  
-  .hero-outer {
-    position: relative;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    margin-bottom: 5rem;
-  }
-  
+
   .hero-text {
     color: #fff;
     z-index: 1;
@@ -63,3 +61,4 @@
     width: 100%;
     background-color: rgb(197, 157, 95, 0.3);
   }
+}

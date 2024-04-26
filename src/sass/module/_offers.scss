@@ -4,11 +4,17 @@
 .offers {
     margin-top: 3rem;
     margin-bottom: 3rem;
-  }
-  .offers-card {
+
+  &-card {
     margin: 0.5rem;
     color: #fff;
     letter-spacing: .2rem;
+
+    h2 {
+      font-size: 4rem;
+      margin-bottom:2rem ;
+    
+    }
   }
   
   .carv-card {
@@ -31,14 +37,8 @@
     color: #fff;
   }
   
-  .offers-card h2 {
-    font-size: 4rem;
-    margin-bottom:2rem ;
-  
-  }
-  
-  
   .cards-btn {
     margin-top: 2rem;
     border-radius: 0.5rem;
   }
+}

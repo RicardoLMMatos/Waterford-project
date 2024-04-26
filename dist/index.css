@@ -152,16 +152,6 @@ ul li {
   font-size: 2rem;
 }
 
-.logo-footer {
-  margin-right: 10rem;
-  font-size: 4rem;
-}
-
-.social-networks {
-  color: #c59d5f;
-  font-size: 3rem;
-}
-
 .footer-info {
   color: #fff;
   background-color: #546270;
@@ -175,26 +165,36 @@ ul li {
   margin-right: 20rem;
 }
 
+.footer .logo-footer {
+  margin-right: 10rem;
+  font-size: 4rem;
+}
+
+.footer .social-networks {
+  color: #c59d5f;
+  font-size: 3rem;
+}
+
 .Carvery-section {
   margin-top: 15rem;
 }
 
-.carvery-card {
+.Carvery-section .carvery-card {
   color: #546270;
   margin: .5rem;
 }
 
-.carvery-card h2 {
+.Carvery-section .carvery-card h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.carvery-card p {
+.Carvery-section .carvery-card p {
   color: #546270;
   margin: .2rem;
 }
 
-.sunday-menu-link {
+.Carvery-section .sunday-menu-link {
   color: #9e7739;
 }
 
@@ -211,6 +211,7 @@ ul li {
 }
 
 .contact-card h2 {
+  color: #546270;
   margin-bottom: 2rem;
 }
 
@@ -234,7 +235,7 @@ ul li {
   display: flex;
 }
 
-.function-text {
+.function-area .function-text {
   text-align: center;
   letter-spacing: .1rem;
   justify-content: center;
@@ -242,13 +243,13 @@ ul li {
   margin-bottom: 5rem;
 }
 
-.function-photos img {
+.function-area .function-photos img {
   object-fit: cover;
   width: 100%;
   height: 50rem;
 }
 
-.function-header {
+.function-area .function-header {
   margin-top: 15rem;
 }
 
@@ -273,7 +274,15 @@ ul li {
   transform: scale(1.04);
 }
 
-.hero-image {
+.hero-outer {
+  align-items: center;
+  height: 70vh;
+  margin-bottom: 5rem;
+  display: flex;
+  position: relative;
+}
+
+.hero-outer .hero-image {
   z-index: -1;
   background-color: #546270;
   background-image: url("hero1.1c8f2405.jpg");
@@ -285,15 +294,7 @@ ul li {
   inset: 0;
 }
 
-.hero-outer {
-  align-items: center;
-  height: 70vh;
-  margin-bottom: 5rem;
-  display: flex;
-  position: relative;
-}
-
-.hero-text {
+.hero-outer .hero-text {
   color: #fff;
   z-index: 1;
   text-shadow: 4px 4px 4px #0006;
@@ -306,7 +307,7 @@ ul li {
   bottom: auto;
 }
 
-.break-line {
+.hero-outer .break-line {
   color: #c59d5f;
   border: .1rem solid #c59d5f;
   border-radius: .5rem;
@@ -314,11 +315,11 @@ ul li {
   margin: 0 auto 1rem;
 }
 
-.logo-single {
+.hero-outer .logo-single {
   font-size: 10rem;
 }
 
-.opaque-overlay {
+.hero-outer .opaque-overlay {
   background-color: #c59d5f4d;
   width: 100%;
   height: 100%;
@@ -327,12 +328,12 @@ ul li {
   left: 0;
 }
 
-.footer-map {
+.map .footer-map {
   width: 100%;
   height: fit-content;
 }
 
-.google-map {
+.map .google-map {
   width: 100%;
 }
 
@@ -347,32 +348,32 @@ ul li {
   margin: .5rem;
 }
 
-.carv-card {
-  background-image: url("carv6.08c96cfa.webp");
-}
-
-.acom-card {
-  background-image: url("acom.4274752b.jpg");
-}
-
-.food-card {
-  background-image: url("food.125be37a.jpg");
-}
-
-.funct-card {
-  background-image: url("func1.66cc9acd.jpg");
-}
-
-.card p {
-  color: #fff;
-}
-
 .offers-card h2 {
   margin-bottom: 2rem;
   font-size: 4rem;
 }
 
-.cards-btn {
+.offers .carv-card {
+  background-image: url("carv6.08c96cfa.webp");
+}
+
+.offers .acom-card {
+  background-image: url("acom.4274752b.jpg");
+}
+
+.offers .food-card {
+  background-image: url("food.125be37a.jpg");
+}
+
+.offers .funct-card {
+  background-image: url("func1.66cc9acd.jpg");
+}
+
+.offers .card p {
+  color: #fff;
+}
+
+.offers .cards-btn {
   border-radius: .5rem;
   margin-top: 2rem;
 }
@@ -382,13 +383,13 @@ ul li {
   display: flex;
 }
 
-.welcome-logo {
+.welcome .welcome-logo {
   color: #c59d5f;
   font-family: Great Vibes;
   font-size: 5rem;
 }
 
-.welcome-text {
+.welcome .welcome-text {
   text-align: center;
   letter-spacing: .1rem;
   justify-content: center;

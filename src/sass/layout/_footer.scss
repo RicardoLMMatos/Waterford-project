@@ -1,13 +1,26 @@
 
 /* Footer area */
 
-.footer-row {
+.footer{
+  &-row {
     background-color: #546270;
     width: 100%;
     font-size: 2rem;
     /* margin-bottom: -1; */
+ 
   }
-  
+  &-info {
+    width: 100%;
+    background-color: #546270;
+    color: #fff;
+
+    p {
+      float: right;
+      margin-right: 20rem;
+      color: #fff;
+      margin-bottom: 2rem;
+    }
+  }
   .logo-footer {
     font-size: 4rem;
     margin-right: 10rem;
@@ -17,17 +30,4 @@
     color: rgb(197, 157, 95);
     font-size: 3rem;
   }
-  
-  .footer-info {
-    width: 100%;
-    background-color: #546270;
-    color: #fff;
-  }
-  
-  .footer-info p {
-    float: right;
-    margin-right: 20rem;
-    color: #fff;
-    margin-bottom: 2rem;
-  }
-  
+}
