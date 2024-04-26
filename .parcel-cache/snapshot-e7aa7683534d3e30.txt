@@ -1,4 +1,4 @@
-6033
+6034
 96C:\Users\will3\Desktop\sites\Waterford-project\node_modules\@parcel\codeframe\test\fixtures\a.js133586079820957473 0
 132C:\Users\will3\Desktop\sites\Waterford-project\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeElementsByAttr.js133586079823677730 0
 81C:\Users\will3\Desktop\sites\Waterford-project\node_modules\entities\package.json133586079822342627 0
@@ -118,7 +118,7 @@
 91C:\Users\will3\Desktop\sites\Waterford-project\node_modules\weak-lru-cache\rollup.config.js133586079821517531 0
 74C:\Users\will3\Desktop\sites\Waterford-project\node_modules\.bin\json5.ps1133586079828948098 0
 110C:\Users\will3\Desktop\sites\Waterford-project\node_modules\csso\node_modules\css-tree\cjs\convertor\index.cjs133586079823842763 0
-51C:\Users\will3\Desktop\sites\Waterford-project\dist133586089641772989 1
+51C:\Users\will3\Desktop\sites\Waterford-project\dist133586132310319347 1
 103C:\Users\will3\Desktop\sites\Waterford-project\node_modules\caniuse-lite\data\features\web-animation.js133586079827993072 0
 89C:\Users\will3\Desktop\sites\Waterford-project\node_modules\@parcel\profiler\src\types.js133586079822342627 0
 69C:\Users\will3\Desktop\sites\Waterford-project\node_modules\is-number133586079821187533 1
@@ -146,7 +146,7 @@
 94C:\Users\will3\Desktop\sites\Waterford-project\node_modules\lmdb\dependencies\lz4\lib\xxhash.h133586079824977964 0
 107C:\Users\will3\Desktop\sites\Waterford-project\node_modules\@swc\helpers\src\_skip_first_generator_next.mjs133586079826527883 0
 79C:\Users\will3\Desktop\sites\Waterford-project\node_modules\weak-lru-cache\dist133586079820587441 1
-57C:\Users\will3\Desktop\sites\Waterford-project\index.html133586081113870221 0
+57C:\Users\will3\Desktop\sites\Waterford-project\index.html133586130164414434 0
 75C:\Users\will3\Desktop\sites\Waterford-project\node_modules\lmdb\caching.js133586079825007971 0
 122C:\Users\will3\Desktop\sites\Waterford-project\node_modules\csso\node_modules\css-tree\cjs\syntax\node\DeclarationList.cjs133586079823277732 0
 108C:\Users\will3\Desktop\sites\Waterford-project\node_modules\caniuse-lite\data\features\unhandledrejection.js133586079827823003 0
@@ -176,7 +176,7 @@
 53C:\Users\will3\Desktop\sites\Waterford-project\src\js133585906029465875 1
 81C:\Users\will3\Desktop\sites\Waterford-project\node_modules\node-addon-api\napi.h133586079822342627 0
 101C:\Users\will3\Desktop\sites\Waterford-project\node_modules\css-tree\lib\syntax\node\ClassSelector.js133586079825162966 0
-75C:\Users\will3\Desktop\sites\Waterford-project\src\sass\layout\_header.scss133585914619238117 0
+75C:\Users\will3\Desktop\sites\Waterford-project\src\sass\layout\_header.scss133586124560451518 0
 85C:\Users\will3\Desktop\sites\Waterford-project\node_modules\type-fest\ts41\index.d.ts133586079822632628 0
 55C:\Users\will3\Desktop\sites\Waterford-project\src\sass133585908738675461 1
 90C:\Users\will3\Desktop\sites\Waterford-project\node_modules\@parcel\core\src\AssetGraph.js133586079823052731 0
@@ -271,7 +271,7 @@
 88C:\Users\will3\Desktop\sites\Waterford-project\node_modules\source-map\lib\quick-sort.js133586079822107638 0
 144C:\Users\will3\Desktop\sites\Waterford-project\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133586079822662627 0
 70C:\Users\will3\Desktop\sites\Waterford-project\node_modules\parcel\lib133586079821287536 1
-75C:\Users\will3\Desktop\sites\Waterford-project\src\sass\layout\_footer.scss133586089479692859 0
+75C:\Users\will3\Desktop\sites\Waterford-project\src\sass\layout\_footer.scss133586132400750968 0
 89C:\Users\will3\Desktop\sites\Waterford-project\node_modules\react-refresh\build-info.json133586079821962559 0
 82C:\Users\will3\Desktop\sites\Waterford-project\node_modules\json5\lib\unicode.d.ts133586079822787624 0
 79C:\Users\will3\Desktop\sites\Waterford-project\node_modules\argparse\lib\sub.js133586079821487534 0
@@ -279,7 +279,7 @@
 78C:\Users\will3\Desktop\sites\Waterford-project\node_modules\tslib\tslib.es6.js133586079821332533 0
 117C:\Users\will3\Desktop\sites\Waterford-project\node_modules\csso\node_modules\css-tree\lib\syntax\node\Parentheses.js133586079825647782 0
 95C:\Users\will3\Desktop\sites\Waterford-project\node_modules\@parcel\workers\src\web\WebChild.js133586079823522739 0
-75C:\Users\will3\Desktop\sites\Waterford-project\src\sass\layout\_layout.scss133586089641543275 0
+75C:\Users\will3\Desktop\sites\Waterford-project\src\sass\layout\_layout.scss133586131646511390 0
 92C:\Users\will3\Desktop\sites\Waterford-project\node_modules\regenerator-runtime\package.json133586079821282531 0
 128C:\Users\will3\Desktop\sites\Waterford-project\node_modules\ordered-binary\.nyc_output\5b6bd808-0399-4ee6-9395-344688761dfa.json133586079821912576 0
 103C:\Users\will3\Desktop\sites\Waterford-project\node_modules\caniuse-lite\data\features\dispatchevent.js133586079826022883 0
@@ -6030,5 +6030,6 @@
 86C:\Users\will3\Desktop\sites\Waterford-project\assets\images\carvery-images\carv7.webp133585897691320648 0
 67C:\Users\will3\Desktop\sites\Waterford-project\assets\css\slick.css133585897691245646 0
 67C:\Users\will3\Desktop\sites\Waterford-project\assets\css\style.css133586082662357715 0
-61C:\Users\will3\Desktop\sites\Waterford-project\dist\index.css133586089641758345 0
-65C:\Users\will3\Desktop\sites\Waterford-project\dist\index.css.map133586089641763349 0
+57C:\Users\will3\Desktop\sites\Waterford-project\.gitignore133586090603063772 0
+61C:\Users\will3\Desktop\sites\Waterford-project\dist\index.css133586132310299342 0
+65C:\Users\will3\Desktop\sites\Waterford-project\dist\index.css.map133586132310314352 0

@@ -1,7 +1,13 @@
 
 /* Navbar*/
-
-.nav-desk {
+.header{
+  &-logo {
+    font-family: 'Great Vibes', serif;
+    color: rgb(197, 157, 95);
+    font-size: 5rem;
+    padding-right: 8rem;
+  }
+  .nav-desk {
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -22,12 +28,7 @@
     box-shadow: 5px 1px 12px -2px black;
   }
   
-  .logo {
-    font-family: 'Great Vibes', serif;
-    color: rgb(197, 157, 95);
-    font-size: 5rem;
-    padding-right: 8rem;
-  }
+
   
   .room-booking {
     background-color: rgb(197, 157, 95);
@@ -59,3 +60,4 @@
     transition: 0.3s ease-in-out;
   }
   
+}

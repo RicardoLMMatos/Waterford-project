@@ -2,32 +2,46 @@
 /* Footer area */
 
 .footer{
-  &-row {
-    background-color: #546270;
-    width: 100%;
-    font-size: 2rem;
-    /* margin-bottom: -1; */
- 
+  background-color: #546270;
+  width: 100%;
+  font-size: 2rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  p {
+    color: #fff;
+    margin-bottom: 0;
   }
   &-info {
     width: 100%;
+
     background-color: #546270;
     color: #fff;
-
-    p {
-      float: right;
-      margin-right: 20rem;
-      color: #fff;
-      margin-bottom: 2rem;
+    @media only screen and (min-width: 1024px){
+      text-align: right;
     }
+ 
   }
-  .logo-footer {
-    font-size: 4rem;
-    margin-right: 10rem;
+  &-logo{
+    font-family: 'Great Vibes', serif;
+    color: rgb(197, 157, 95);
+    font-size: 5rem;
+  
   }
   
   .social-networks {
     color: rgb(197, 157, 95);
     font-size: 3rem;
+  }
+  &-nav{
+    margin-bottom: 15px;
+    li{
+    &:last-child{
+      a,i{
+        @media only screen and (min-width: 1024px){
+        padding-right: 0;
+        }
+      }
+    }
+    }
   }
 }

@@ -5,6 +5,8 @@
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   
   .row {
@@ -19,12 +21,25 @@
     flex-shrink: 1;
     width: 100%;
     border-radius: 0.6rem;
+ 
+    &--50{
+      width: calc(50% - 30px);
+    }
+    &--shrink{
+      width: auto;
+      flex: none;
+    }
   }
   
-  .column--50{
-    width: calc(50% - 30px);
-  }
-  
+.align-centre{
+  align-items: center;
+}
+.justify-centre{
+  justify-content: center;
+}
+.space-between{
+  justify-content: space-between;
+}
   /* Card system */
   
   .card {
@@ -40,3 +55,31 @@
   
   }
   
+  
+  @media only screen and (min-width: 1px) and (max-width: 639px){
+    .column--s-50{
+      width: calc(50% - 30px);
+    }
+    .column--s-shrink{
+      width: auto;
+      flex: none;
+    }
+  }
+  @media only screen and (min-width: 640px) and (max-width: 1023px){
+    .column--m-50{
+      width: calc(50% - 30px);
+    }
+    .column--m-shrink{
+      width: auto;
+      flex: none;
+    }
+  }
+  @media only screen and (min-width: 1024px){
+    .column--l-50{
+      width: calc(50% - 30px);
+    }
+    .column--l-shrink{
+      width: auto;
+      flex: none;
+    }
+  }

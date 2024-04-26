@@ -3,6 +3,8 @@
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .row {
@@ -23,6 +25,23 @@
   width: calc(50% - 30px);
 }
 
+.column--shrink {
+  flex: none;
+  width: auto;
+}
+
+.align-centre {
+  align-items: center;
+}
+
+.justify-centre {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 .card {
   text-align: center;
   background-position: center;
@@ -33,6 +52,39 @@
   align-items: center;
   height: 30rem;
   display: flex;
+}
+
+@media only screen and (width >= 1px) and (width <= 639px) {
+  .column--s-50 {
+    width: calc(50% - 30px);
+  }
+
+  .column--s-shrink {
+    flex: none;
+    width: auto;
+  }
+}
+
+@media only screen and (width >= 640px) and (width <= 1023px) {
+  .column--m-50 {
+    width: calc(50% - 30px);
+  }
+
+  .column--m-shrink {
+    flex: none;
+    width: auto;
+  }
+}
+
+@media only screen and (width >= 1024px) {
+  .column--l-50 {
+    width: calc(50% - 30px);
+  }
+
+  .column--l-shrink {
+    flex: none;
+    width: auto;
+  }
 }
 
 *, :after, :before {
@@ -89,7 +141,14 @@ ul li a:hover {
   color: #c59d5f;
 }
 
-.nav-desk {
+.header-logo {
+  color: #c59d5f;
+  padding-right: 8rem;
+  font-family: Great Vibes, serif;
+  font-size: 5rem;
+}
+
+.header .nav-desk {
   z-index: 999;
   color: #fff;
   width: 100%;
@@ -101,37 +160,30 @@ ul li a:hover {
   right: 0;
 }
 
-.active {
+.header .active {
   text-decoration: underline;
 }
 
-.nav-active {
+.header .nav-active {
   background-color: #546270;
   box-shadow: 5px 1px 12px -2px #000;
 }
 
-.logo {
-  color: #c59d5f;
-  padding-right: 8rem;
-  font-family: Great Vibes, serif;
-  font-size: 5rem;
-}
-
-.room-booking {
+.header .room-booking {
   background-color: #c59d5f;
 }
 
-.room-booking :hover {
+.header .room-booking :hover {
   color: #fff;
 }
 
-ul li {
+.header ul li {
   padding: 1rem;
   transition: color .25s ease-in-out;
   display: inline-block;
 }
 
-.btn {
+.header .btn {
   color: #fff;
   background-color: #c59d5f;
   border: none;
@@ -141,15 +193,22 @@ ul li {
   transition: all .3s ease-in-out;
 }
 
-.btn:hover {
+.header .btn:hover {
   background-color: #9e7739;
   transition: all .3s ease-in-out;
 }
 
-.footer-row {
+.footer {
   background-color: #546270;
   width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-size: 2rem;
+}
+
+.footer p {
+  color: #fff;
+  margin-bottom: 0;
 }
 
 .footer-info {
@@ -158,21 +217,31 @@ ul li {
   width: 100%;
 }
 
-.footer-info p {
-  float: right;
-  color: #fff;
-  margin-bottom: 2rem;
-  margin-right: 20rem;
+@media only screen and (width >= 1024px) {
+  .footer-info {
+    text-align: right;
+  }
 }
 
-.footer .logo-footer {
-  margin-right: 10rem;
-  font-size: 4rem;
+.footer-logo {
+  color: #c59d5f;
+  font-family: Great Vibes, serif;
+  font-size: 5rem;
 }
 
 .footer .social-networks {
   color: #c59d5f;
   font-size: 3rem;
+}
+
+.footer-nav {
+  margin-bottom: 15px;
+}
+
+@media only screen and (width >= 1024px) {
+  .footer-nav li:last-child a, .footer-nav li:last-child i {
+    padding-right: 0;
+  }
 }
 
 .Carvery-section {
