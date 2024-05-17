@@ -1,3 +1,24 @@
+.break-line {
+  color: #c59d5f;
+  border: .1rem solid #c59d5f;
+  border-radius: .5rem;
+  width: 5rem;
+  margin: 0 auto 1rem;
+}
+
+.logo-single {
+  font-size: 10rem;
+}
+
+.opaque-overlay {
+  background-color: #c59d5f4d;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .container {
   width: 100%;
   max-width: 1280px;
@@ -99,6 +120,7 @@ html {
 
 body {
   box-sizing: border-box;
+  color: #546270;
   font-family: Sedan, Montserrat, serif;
 }
 
@@ -473,27 +495,6 @@ ul li a:hover {
   bottom: auto;
 }
 
-.hero-outer .break-line {
-  color: #c59d5f;
-  border: .1rem solid #c59d5f;
-  border-radius: .5rem;
-  width: 5rem;
-  margin: 0 auto 1rem;
-}
-
-.hero-outer .logo-single {
-  font-size: 10rem;
-}
-
-.hero-outer .opaque-overlay {
-  background-color: #c59d5f4d;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .map .footer-map {
   width: 100%;
   height: fit-content;
@@ -540,8 +541,14 @@ ul li a:hover {
 }
 
 .offers .cards-btn {
+  color: #fff;
+  background-color: #c59d5f;
+  border: none;
   border-radius: .5rem;
   margin-top: 2rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  transition: all .3s ease-in-out;
 }
 
 .welcome {
@@ -549,16 +556,20 @@ ul li a:hover {
   display: flex;
 }
 
-.welcome .welcome-logo {
+.welcome-logo {
   color: #c59d5f;
   font-family: Great Vibes;
   font-size: 5rem;
 }
 
-.welcome .welcome-text {
+.welcome-text {
   text-align: center;
   letter-spacing: .1rem;
   justify-content: center;
   max-width: 70%;
+}
+
+.welcome-logo {
+  font-family: Great Vibes;
 }
 /*# sourceMappingURL=index.css.map */
