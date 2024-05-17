@@ -36,6 +36,22 @@
   .card p {
     color: #fff;
   }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color: rgb(197, 157, 95);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-in-out;
+  
+  }
+  
+  .btn:hover {
+    background-color: #9e7739;
+    transition: 0.3s ease-in-out;
+  }
   
   .cards-btn {
     margin-top: 2rem;

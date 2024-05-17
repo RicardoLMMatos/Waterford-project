@@ -1,3 +1,8 @@
+.btn:hover {
+  background-color: #9e7739;
+  transition: all .3s ease-in-out;
+}
+
 .break-line {
   color: #c59d5f;
   border: .1rem solid #c59d5f;
@@ -17,6 +22,16 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.btn {
+  color: #fff;
+  background-color: #c59d5f;
+  border: none;
+  border-radius: .5rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  transition: all .3s ease-in-out;
 }
 
 .container {
@@ -203,21 +218,6 @@ ul li a:hover {
   padding: 1rem;
   transition: color .25s ease-in-out;
   display: inline-block;
-}
-
-.header .btn {
-  color: #fff;
-  background-color: #c59d5f;
-  border: none;
-  border-radius: .5rem;
-  padding: 2rem;
-  font-size: 1.5rem;
-  transition: all .3s ease-in-out;
-}
-
-.header .btn:hover {
-  background-color: #9e7739;
-  transition: all .3s ease-in-out;
 }
 
 .footer {
@@ -540,6 +540,21 @@ ul li a:hover {
   color: #fff;
 }
 
+.offers .btn {
+  color: #fff;
+  background-color: #c59d5f;
+  border: none;
+  border-radius: .5rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  transition: all .3s ease-in-out;
+}
+
+.offers .btn:hover {
+  background-color: #9e7739;
+  transition: all .3s ease-in-out;
+}
+
 .offers .cards-btn {
   color: #fff;
   background-color: #c59d5f;
@@ -571,5 +586,10 @@ ul li a:hover {
 
 .welcome-logo {
   font-family: Great Vibes;
+}
+
+.cards-btn {
+  border-radius: .5rem;
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=index.css.map */

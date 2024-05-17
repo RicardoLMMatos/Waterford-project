@@ -1,5 +1,6 @@
 @import "../sass/mixins/_m-mixins.scss"; 
 @import "../sass/base/_b-base.scss"; 
+@import "../sass/state/_s-globals.scss"; 
 @import "../sass/base/_b-globals.scss"; 
 @import "../sass/layout/_l-layout.scss"; 
 @import "../sass/module/_m-module.scss"; 
@@ -31,4 +32,4 @@
 // @import "../sass/state/_s-offers.scss"; 
 @import "../sass/module/_m-welcome.scss"; 
 @import "../sass/state/_s-welcome.scss"; 
-
+@import "../sass/module/_m-cards.scss"; 
