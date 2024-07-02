@@ -1,0 +1,49 @@
+
+/* Navbar*/
+.header{
+  &-logo {
+    font-family: 'Great Vibes', serif;
+    color: rgb(197, 157, 95);
+    font-size: 5rem;
+    padding-right: 8rem;
+  }
+  .nav-desk {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .active {
+    text-decoration:underline;
+  }
+  
+  .nav-active {
+    background-color: #546270;
+    box-shadow: 5px 1px 12px -2px black;
+  }
+  
+
+  
+  .room-booking {
+    background-color: rgb(197, 157, 95);
+  }
+  
+  .room-booking :hover {
+    color: #fff;
+  }
+  
+  ul li {
+    padding: 1rem;
+    display: inline-block;
+    transition: color .25s ease-in-out;
+  }
+  
+
+  
+}

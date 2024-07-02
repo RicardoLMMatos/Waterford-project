@@ -1,0 +1,26 @@
+
+/* Contact area */
+
+
+
+.contact {
+    margin-top: 3.5rem; 
+    color: srgb(112,128,144);
+    margin-bottom: 3.5rem;
+ 
+  
+  &-card {
+    margin: 0.5rem;
+    color:#546270;
+    border: 0.2rem solid  rgb(197, 157, 95);
+    h2 {
+      margin-bottom: 2rem;
+      color: #546270;
+    }
+    p {
+      color: #546270;
+      margin: 0.2rem;
+    }
+  }
+}
+  

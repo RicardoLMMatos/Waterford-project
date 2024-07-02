@@ -1,0 +1,13 @@
+{
+  "@parcel/transformer-css": {
+    "errorRecovery": true
+  },
+  "scripts": {
+    "dev": "parcel src/js/*.js",
+    "build": "parcel build src/js/*.js"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "2.12.0"
+  }
+}

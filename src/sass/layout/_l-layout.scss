@@ -1,0 +1,85 @@
+/* Grid system */
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    border-radius: 0.6rem;
+ 
+    &--50{
+      width: calc(50% - 30px);
+    }
+    &--shrink{
+      width: auto;
+      flex: none;
+    }
+  }
+  
+.align-centre{
+  align-items: center;
+}
+.justify-centre{
+  justify-content: center;
+}
+.space-between{
+  justify-content: space-between;
+}
+  /* Card system */
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+  
+  }
+  
+  
+  @media only screen and (min-width: 1px) and (max-width: 639px){
+    .column--s-50{
+      width: calc(50% - 30px);
+    }
+    .column--s-shrink{
+      width: auto;
+      flex: none;
+    }
+  }
+  @media only screen and (min-width: 640px) and (max-width: 1023px){
+    .column--m-50{
+      width: calc(50% - 30px);
+    }
+    .column--m-shrink{
+      width: auto;
+      flex: none;
+    }
+  }
+  @media only screen and (min-width: 1024px){
+    .column--l-50{
+      width: calc(50% - 30px);
+    }
+    .column--l-shrink{
+      width: auto;
+      flex: none;
+    }
+  }

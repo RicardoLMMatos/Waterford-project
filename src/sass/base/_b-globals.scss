@@ -1,0 +1,40 @@
+.break{
+    &-line {
+      color: rgb(197, 157, 95);
+      width: 5rem;
+      border: 0.1rem solid rgb(197, 157, 95);
+      margin: auto;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      margin-top: 0;
+    
+    }
+  }
+  
+  .logo{
+    &-single {
+      font-size: 10rem;
+    }
+  }
+  
+  .opaque{
+    &-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgb(197, 157, 95, 0.3);
+    }
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color: rgb(197, 157, 95);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-in-out;
+  
+  }
